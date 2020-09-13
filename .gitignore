@@ -1,0 +1,10 @@
+__pycache__
+
+# Folder property
+.directory
+
+# txt files
+*.txt
+
+# Folder with reports and presentation slides
+rendu/
