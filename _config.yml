@@ -3,3 +3,4 @@ title: PCA Project
 description: Hi, this is my very first school project in python so please, don't be too harsh! This work was realized by NicolasDrb (@FellowNico) and me.
 plugins:
   - jekyll-mentions
+  - jemoji
