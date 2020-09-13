@@ -106,7 +106,7 @@ def cercle_corr(result_data, old_data, var_noms, nb_dim, liste_pct):
         sphere = fig.add_subplot(
             111,
             projection='3d',
-            title='Sphère de corrélation des variables avec les composantes',
+            title='Correlation sphere of the variables/components',
             xlabel='Dim 1 ({}%)'.format(str(liste_pct[0])),
             ylabel='Dim 2 ({}%)'.format(str(liste_pct[1])),
             zlabel='Dim 3 ({}%)'.format(str(liste_pct[2]))
