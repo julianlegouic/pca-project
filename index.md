@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+# Principal Component Analysis
 
-You can use the [editor on GitHub](https://github.com/julianlegouic/pca-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### About the project
+This project is about programming the PCA algorithm with the challenge of using as less as possible any of the built-in functions available in the numpy python package that could solve any big step of the algorithm (like finding the eigen values/vectors :smirk:).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div align="center"><img src="https://i.imgflip.com/45be7u.jpg"/></br><a href="https://i.imgflip.com/45be7u.jpg">https://i.imgflip.com/45be7u.jpg</a></div><br/>  
+  
+**Disclaimer:** This GitHub is not about covering PCA in its deepest meanings. This is just for me and to help any other students that might stumble upon this page and who are stuck with their own implementation of a PCA algorithm. Also, feel free to download this project and to customize (like the plots) it as you want! We'd be really curious to see how good you could improve these horrendous plots! :laughing:
 
-### Markdown
+<details>
+  <summary><b>!!Spoiler alert!!</b></summary>
+  
+  We half-failed on this one because we still used numpy so.. mea culpa. :sweat_smile: But we stuck to the very basic one, so keep reading, you might find what your're looking for! :wink:)
+</details>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## But what is PCA?
 
-```markdown
-Syntax highlighted code block
+Simply put, PCA is a technique used to point out variation and bring to light strong patterns in a dataset. Oftenly, it is used to make data easy to explore and visualize.
 
-# Header 1
-## Header 2
-### Header 3
+## The algorithm used (here)
 
-- Bulleted
-- List
+In this implementation, we use the [power iteration](https://en.wikipedia.org/wiki/Power_iteration) algorithm to find the new components. First, we apply the algorithm on our sample data, which allows us to find the biggest eigen value and its associated vector. This forms our first principal component. Then, by excluding one dimension (associated with the first new component) from our sample data, we apply apply the algorithm again. We repeat this process until we found all the new components (i.e. all the eigen values/vectors). This kind of procedure is called a deflation method (or at least in French, sorry for my fellow speaker of English :disappointed_relieved:).
 
-1. Numbered
-2. List
+Pretty straightforward, isn't it?
 
-**Bold** and _Italic_ and `Code` text
+## The code
 
-[Link](url) and ![Image](src)
+Our code lets you personalize your PCA to different degrees. First, you can use either CSV or XLS files (with only one worksheet). If you choose to go with a CSV file, you can also specify the delimiter if you're against the flow and don't use commas like everybody (no judgment). Then, you can precise the percentage of restitution you desire to have with your PCA. Depending on that, the results of our program might differ.
+
+If 2 components are enough to be over the user's percentage, the plots will be displayed in 2D. However, if 2 components are not enough to satisfy the user's percentage, the plots will be displayed in 3D, with 3 components. Since human brains cannot understand over 3 dimensions, we don't display more than 3 components (not that we actually could :confused:).
+
+Finally, the program lets you save the numerical results in a text file or just prompt everything in the terminal if you don't want to save.
+
+## Requirements
+Only Numpy, Matplotlib and xlrd (while not mandatory for the user) are required to run this project. Check out the [```requirements.txt```](./requirements.txt) file for no more details.
+
+## How to
+
+### 1. Setup the environment
+
+It is best practice to use a virtual environment with your python project, so I encourage you to check out [virtualenv](https://virtualenv.pypa.io/en/stable/). Of course there are tons of alternatives, but this one is pretty simple to setup and to configure, as it is integrated to Python directly since version 3.3.
+
+So after creating your virtual environment and activating it, you can run the following command:
+```bash
+pip install -r requirements.txt
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 2. Use it
 
-### Jekyll Themes
+Run the main script called.. ```main.py``` with Python (version >= 3.5), and simply follow the instructions in your terminal! :smile:
+```bash
+python main.py
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/julianlegouic/pca-project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+We even furnish some sample data so don't hesitate to use our ```sample.csv```, or ```sample.xls``` files! The data are grades from 9 different sutdents in 4 subjects. The results on the data don't really make any sense, these are just to showcase what our program can do.
 
-### Support or Contact
+### 3. Enjoy the results
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You have two choices before the PCA goes wild: either save the results in a text file or just prompt it in your terminal. In both cases, the results are accessible with consulting the 2 shi..nning plots we have! Haha...
+
+![2d](https://drive.google.com/uc?export=view&id=1SR5F-9f-4ir-hab7fkmahGUuxtcqi2IE)
+
+![3d](https://drive.google.com/uc?export=view&id=1UXfn6BxYlCF7rAL-wGdWQVwuVCloHwg0)
