@@ -3,7 +3,7 @@
 ### About the project
 This project is about programming the PCA algorithm with the challenge of using as less as possible any of the built-in functions available in the numpy python package that could solve any big step of the algorithm (like finding the eigen values/vectors :smirk:).
 
-<div align="center" sytle="display:inline-block">
+<div align="center" style="display:inline-block">
   <img src="https://i.imgflip.com/45be7u.jpg"/>
   <a href="https://i.imgflip.com/45be7u.jpg">https://i.imgflip.com/45be7u.jpg</a>
 </div><br/>  
