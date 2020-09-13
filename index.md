@@ -3,7 +3,7 @@
 ### About the project
 This project is about programming the PCA algorithm with the challenge of using as less as possible any of the built-in functions available in the numpy python package that could solve any big step of the algorithm (like finding the eigen values/vectors :smirk:).
 
-<div align="center">
+<div align="center" style="text-align:center">
   <img src="https://i.imgflip.com/45be7u.jpg"/>
   <a href="https://i.imgflip.com/45be7u.jpg">https://i.imgflip.com/45be7u.jpg</a>
 </div><br/>  
@@ -11,7 +11,7 @@ This project is about programming the PCA algorithm with the challenge of using 
 **Disclaimer:** This GitHub is not about covering PCA in its deepest meanings. This is just for me and to help any other students that might stumble upon this page and who are stuck with their own implementation of a PCA algorithm. Also, feel free to download this project and to customize (like the plots) it as you want! We'd be really curious to see how good you could improve these horrendous plots! :laughing:
 
 <details>
-  <summary><b>!!Spoiler alert!!</b></summary>
+  <b><summary>!!Spoiler alert!!</summary></b>
   
   We half-failed on this one because we still used numpy so.. mea culpa. :sweat_smile: But we stuck to the very basic one, so keep reading, you might find what your're looking for! :wink:)
 </details>
@@ -65,5 +65,5 @@ You have two choices before the PCA goes wild: either save the results in a text
   <img src="https://drive.google.com/uc?export=view&id=1SR5F-9f-4ir-hab7fkmahGUuxtcqi2IE"/>
 </div>
 <div align="center">
-  ![3d](https://drive.google.com/uc?export=view&id=1UXfn6BxYlCF7rAL-wGdWQVwuVCloHwg0)
+  <img src="https://drive.google.com/uc?export=view&id=1UXfn6BxYlCF7rAL-wGdWQVwuVCloHwg0"/>
 </div>
