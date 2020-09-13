@@ -3,8 +3,8 @@
 ### About the project
 This project is about programming the PCA algorithm with the challenge of using as less as possible any of the built-in functions available in the numpy python package that could solve any big step of the algorithm (like finding the eigen values/vectors :smirk:).
 
-<div align="center"><img src="https://i.imgflip.com/45be7u.jpg"/></br><a href="https://i.imgflip.com/45be7u.jpg">https://i.imgflip.com/45be7u.jpg</a></div>
-
+<div align="center"><img src="https://i.imgflip.com/45be7u.jpg"/></br><a href="https://i.imgflip.com/45be7u.jpg">https://i.imgflip.com/45be7u.jpg</a></div><br/>  
+  
 **Disclaimer:** This GitHub is not about covering PCA in its deepest meanings. This is just for me and to help any other students that might stumble upon this page and who are stuck with their own implementation of a PCA algorithm. Also, feel free to download this project and to customize (like the plots) it as you want! We'd be really curious to see how good you could improve these horrendous plots! :laughing:
 
 <details>
@@ -32,7 +32,7 @@ If 2 components are enough to be over the user's percentage, the plots will be d
 Finally, the program lets you save the numerical results in a text file or just prompt everything in the terminal if you don't want to save.
 
 ## Requirements
-Only Numpy, Matplotlib and xlrd (while not mandatory for the user) are required to run this project.
+Only Numpy, Matplotlib and xlrd (while not mandatory for the user) are required to run this project. Check out the [```requirements.txt```](./requirements.txt) file for no more details.
 
 ## How to
 
