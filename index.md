@@ -3,15 +3,15 @@
 ### About the project
 This project is about programming the PCA algorithm with the challenge of using as less as possible any of the built-in functions available in the numpy python package that could solve any big step of the algorithm (like finding the eigen values/vectors :smirk:).
 
-<div align="center" style="text-align:center">
+<div align="center">
   <img src="https://i.imgflip.com/45be7u.jpg"/>
-  <a href="https://i.imgflip.com/45be7u.jpg">https://i.imgflip.com/45be7u.jpg</a>
+  <a href="https://i.imgflip.com/45be7u.jpg" style="text-align:center">https://i.imgflip.com/45be7u.jpg</a>
 </div><br/>  
   
 **Disclaimer:** This GitHub is not about covering PCA in its deepest meanings. This is just for me and to help any other students that might stumble upon this page and who are stuck with their own implementation of a PCA algorithm. Also, feel free to download this project and to customize (like the plots) it as you want! We'd be really curious to see how good you could improve these horrendous plots! :laughing:
 
 <details>
-  <b><summary>!!Spoiler alert!!</summary></b>
+  <summary><b>!!Spoiler alert!!</b></summary>
   
   We half-failed on this one because we still used numpy so.. mea culpa. :sweat_smile: But we stuck to the very basic one, so keep reading, you might find what your're looking for! :wink:)
 </details>
